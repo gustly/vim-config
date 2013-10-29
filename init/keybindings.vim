@@ -82,6 +82,24 @@ vmap <s-tab> <gv
 " ctags again with gemhome added
 map <leader>rt :!/usr/local/bin/ctags -R --exclude=.git --exclude=log * `rvm gemhome`/*<CR>
 map <leader>rT :!rdoc -f tags -o tags * `rvm gemhome` --exclude=.git --exclude=log
+" FuzzyFinder and switchback commands
+map <leader>e   :e#<CR>
+map <leader>b   :FufBuffer<CR>
+map <leader><C-N> :FufFile **/<CR>
+map <D-e> :FufBuffer<CR>
+map <leader>n :FufFile **/<CR>
+map <D-N> :FufFile **/<CR>
+
+" refresh the FuzzyFinder cache
+map <leader>rf :FufRenewCache<CR>
+
+" CtrlP
+" map <D-N>       :CommandTFlush<CR>:CommandT<CR>
+ map <leader>f   :CtrlP<CR>
+
+" ctags with rails load path
+map <leader>rt  :!rails runner 'puts $LOAD_PATH.join(" ")' \| xargs /usr/local/bin/ctags -R public/javascripts<CR>
+map <leader>T   :!rails runner 'puts $LOAD_PATH.join(" ")' \| xargs rdoc -f tags<CR>
 
 " Git blame
 map <leader>g   :Gblame<CR>
