@@ -32,6 +32,7 @@ Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'candycode.vim'
 Bundle 'Color-Sampler-Pack'
 Bundle 'flazz/vim-colorschemes'
+Bundle 'nanotech/jellybeans.vim'
 
 "
 " Rails
