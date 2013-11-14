@@ -93,9 +93,9 @@ map <D-N> :FufFile **/<CR>
 " refresh the FuzzyFinder cache
 map <leader>rf :FufRenewCache<CR>
 
-" CtrlP
-" map <D-N>       :CommandTFlush<CR>:CommandT<CR>
- map <leader>f   :CtrlP<CR>
+" Command-T
+map <D-N>       :CommandTFlush<CR>:CommandT<CR>
+map <leader>f   :CommandTFlush<CR>:CommandT<CR>
 
 " ctags with rails load path
 map <leader>rt  :!rails runner 'puts $LOAD_PATH.join(" ")' \| xargs /usr/local/bin/ctags -R public/javascripts<CR>
