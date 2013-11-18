@@ -113,8 +113,6 @@ Bundle 'chrisbra/csv.vim'
 " Development Tool Integration
 "
 Bundle 'tpope/vim-fugitive'
-" This plugin is slow
-Bundle 'airblade/vim-gitgutter'
 Bundle 'pivotal/tmux-config'
 Bundle 'tpope/vim-dispatch'
 Bundle 'carlobaldassi/ConqueTerm'
