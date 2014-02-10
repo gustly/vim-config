@@ -35,3 +35,10 @@ runtime! init/**.vim
 " Machine-local vim settings - keep this at the end
 " --------------------------
 silent! source ~/.vimrc.local
+
+"augroup featurefiles
+
+
+
+"autocmd featurefiles BufEnter *.feature nn <C-n> <C-x><C-o>
+"autocmd featurefiles BufLeave *.feature nn <buffer> <silent> <c-n> 'PrtHistory(-1)'
