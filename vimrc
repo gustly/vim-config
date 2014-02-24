@@ -34,6 +34,7 @@ runtime! init/**.vim
 
 " Machine-local vim settings - keep this at the end
 " --------------------------
+let g:feature_filetype='behat'
 silent! source ~/.vimrc.local
 
 "augroup featurefiles
