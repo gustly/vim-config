@@ -43,3 +43,5 @@ silent! source ~/.vimrc.local
 
 "autocmd featurefiles BufEnter *.feature nn <C-n> <C-x><C-o>
 "autocmd featurefiles BufLeave *.feature nn <buffer> <silent> <c-n> 'PrtHistory(-1)'
+
+set guifont=Menlo\ Regular:h14
