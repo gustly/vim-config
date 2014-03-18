@@ -35,3 +35,4 @@ runtime! init/**.vim
 " Machine-local vim settings - keep this at the end
 " --------------------------
 silent! source ~/.vimrc.local
+set guifont=Menlo\ Regular:h14
