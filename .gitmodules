@@ -124,5 +124,11 @@
   path = bundle/hammer.vim
   url = https://github.com/matthias-guenther/hammer.vim.git
 [submodule "bundle/vim-easymotion"]
-	path = bundle/vim-easymotion
-	url = https://github.com/Lokaltog/vim-easymotion.git
+ path = bundle/vim-easymotion
+ url = https://github.com/Lokaltog/vim-easymotion.git
+[submodule "bundle/jellybeans-vim"]
+  path = bundle/jellybeans-vim
+  url = https://github.com/nanotech/jellybeans.vim.git
+[submodule "bundle/vim-behat"]
+  path = bundle/vim-behat
+  url = https://github.com/veloce/vim-behat.git 
